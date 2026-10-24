@@ -42,4 +42,14 @@ Los datos se descargan de https://www.kaggle.com/datasets/advaypatil/youtube-sta
 
 Cristian Camilo Alarcon Delgadillo, Bryan Arley Saenz Cortes y Jonathan David Lancheros Bello. La autoría del informe no prueba por sí sola aportes individuales al repositorio. La documentación distingue aportes declarados y registros técnicos de esta cuenta; no se fabrican commits ni reuniones de otras personas.
 
-El prototipo de Avances III está alojado con acceso privado en https://youtube-avances-iii-calar-2026.calarcondelgadillo.chatgpt.site. El monitoreo es local en el navegador, sin observabilidad central de producción.
+El prototipo de Avances III está alojado con acceso privado en [Prototipo interactivo del proyecto](https://youtube-avances-iii-calar-2026.calarcondelgadillo.chatgpt.site). El monitoreo es local en el navegador, sin observabilidad central de producción.
+
+## Resultados y entorno verificado
+
+La ejecución final se realizó con Python local el 24 de octubre de 2026. El cuaderno es compatible con Google Colab y muestra el entorno real en su primera salida. No se presenta la verificación local como una ejecución en infraestructura de Google.
+
+El ensamble congelado obtuvo RMSE log 0,5593 frente a 0,5831 de HGB. El intervalo bootstrap apareado de la diferencia incluye cero. En el estrés por fecha, HGB obtuvo 0,7023 y el ensamble 0,7497. Los resultados no validan un pronóstico futuro.
+
+## Informe final
+
+[Leer el informe en PDF](docs/Informe_YouTube_Avances_IV.pdf) · [Guía de reproducción](docs/REPRODUCCION.md). El cuaderno incluye salidas ejecutadas y una gráfica.
