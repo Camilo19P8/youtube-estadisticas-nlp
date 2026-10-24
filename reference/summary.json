@@ -1,0 +1,109 @@
+{
+  "audit": {
+    "videos_raw": 1881,
+    "comments_raw": 18409,
+    "video_duplicates": 12,
+    "missing_text": 1,
+    "comment_duplicates": 249,
+    "videos_clean": 1867,
+    "comments_clean": 18159,
+    "keywords": 41,
+    "missing_likes": 6,
+    "missing_comments": 2
+  },
+  "n_development": 1493,
+  "n_oldtest": 374,
+  "selected": "Ensamble HGB y Ridge",
+  "selected_params": {},
+  "final_inner_rmse": 0.5956088768884493,
+  "nested_selection": {
+    "rmse": 0.5865280288539462,
+    "mae": 0.4357154113709276,
+    "r2": 0.9451218038655242,
+    "mae_views": 4340067.609149527,
+    "rmse_views": 30492401.96193577
+  },
+  "nested_bootstrap": [
+    0.5510364602775354,
+    0.6220367217051888
+  ],
+  "outer_selections": [
+    {
+      "fold": 1,
+      "model": "Ensamble HGB y Ridge",
+      "inner_rmse": 0.631164000979181
+    },
+    {
+      "fold": 2,
+      "model": "Ridge tabular",
+      "inner_rmse": 0.6279935446561872
+    },
+    {
+      "fold": 3,
+      "model": "Ensamble HGB y Ridge",
+      "inner_rmse": 0.6238008293493832
+    },
+    {
+      "fold": 4,
+      "model": "Ensamble HGB y Ridge",
+      "inner_rmse": 0.6231809489993971
+    },
+    {
+      "fold": 5,
+      "model": "Ensamble HGB y Ridge",
+      "inner_rmse": 0.6254643743958211
+    }
+  ],
+  "paired_ci": {
+    "Mediana": [
+      1.8137071143592518,
+      1.9816655957739449
+    ],
+    "Ridge tabular": [
+      -0.006390732663111056,
+      0.03752356186379946
+    ],
+    "Ridge comentarios": [
+      -0.006157801477276231,
+      0.03587955534609705
+    ],
+    "Ridge titulo y comentarios": [
+      -0.0073535436136359985,
+      0.0331279161376926
+    ],
+    "Ridge solo comentarios": [
+      1.5337242578796528,
+      1.693708760862381
+    ],
+    "HGB completo": [
+      0.0,
+      0.0
+    ],
+    "HGB sin Comments": [
+      -0.01094317110777994,
+      0.007399068975004637
+    ],
+    "HGB agregados NLP": [
+      -0.0176607435278574,
+      0.011693994881800469
+    ],
+    "Ensamble HGB y Ridge": [
+      -0.04757674471721591,
+      -0.018652966333325985
+    ]
+  },
+  "versions": {
+    "python": "3.12.14",
+    "pandas": "3.0.1",
+    "numpy": "2.5.4",
+    "sklearn": "1.9.1",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "sha256": {
+    "comments.csv": "bc78f5fbddcf57cfcde8609ce35a23658c2eb98fca05d1ffe62fff65a20f651b",
+    "videos-stats.csv": "09b52f4ac493ffb7a07e64eca489c31afd43cc540398bf626988eaa3cebf930a"
+  },
+  "seconds": 217.64832749999982,
+  "configs": 16
+}
