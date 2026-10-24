@@ -1,0 +1,36 @@
+{
+  "executed_at": "2026-10-24T19:23:44.949602+00:00",
+  "audit": {
+    "videos_raw": 1881,
+    "comments_raw": 18409,
+    "video_duplicates": 12,
+    "missing_text": 1,
+    "comment_duplicates": 249,
+    "videos_clean": 1867,
+    "comments_clean": 18159,
+    "keywords": 41,
+    "missing_likes": 6,
+    "missing_comments": 2
+  },
+  "n_development": 1493,
+  "n_known_test": 374,
+  "known_test_warning": "Retrospectiva: prueba conocida en Avances II; sin seleccion nueva.",
+  "rmse_bootstrap95": [
+    0.49344236988230905,
+    0.6361055918064075
+  ],
+  "difference_vs_hgb_bootstrap95": [
+    -0.05775149137014609,
+    0.00849259443003341
+  ],
+  "temporal_train": 1493,
+  "temporal_test": 374,
+  "temporal_cutoff": "2022-08-23",
+  "versions": {
+    "python": "3.13.16",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "sklearn": "1.6.1"
+  },
+  "model_sha256": "febb6a335f5b28baffc7283e84f562178bc45a067125abac8cddd77fe6070f5b"
+}

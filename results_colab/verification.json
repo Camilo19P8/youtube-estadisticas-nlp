@@ -1,0 +1,10 @@
+{
+  "parity_cases": 50,
+  "max_error_log": 3.552713678800501e-15,
+  "tolerance": 1e-08,
+  "invalid_inputs_rejected": 6,
+  "invalid_inputs_tested": 6,
+  "latency_ms_median": 2.3533900000529684,
+  "latency_ms_p95": 2.814750649912412,
+  "passed": true
+}
